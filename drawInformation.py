@@ -273,9 +273,9 @@ def main():
     run = True
     clock = pygame.time.Clock()
 
-    n = 50 # Number of elements in list
+    n = 100 # Number of elements in list
     min = 0 # Minimum value in list
-    max = 100 # Maximum value in list
+    max = 200 # Maximum value in list
 
     # Generate starting list
     lst = generate_starting_list(n, min, max)
